@@ -97,8 +97,8 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 )
 
 :: 2. Dowloading io.js
-call :ExecuteCmd if not exist "D:\home\site\bin" mkdir D:\home\site\bin
-call :ExecuteCmd if not exist "D:\home\site\bin\iojs" mkdir D:\home\site\bin\iojs
+if not exist "D:\home\site\bin" mkdir D:\home\site\bin
+if not exist "D:\home\site\bin\iojs" mkdir D:\home\site\bin\iojs
 call :ExecuteCmd curl -L -o D:\home\site\bin\iojs\iojs.exe https://iojs.org/dist/latest/win-x64/iojs.exe
 call :ExecuteCmd curl -L -o D:\home\site\bin\iojs\iojs.lib https://iojs.org/dist/latest/win-x64/iojs.lib
 
