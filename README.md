@@ -19,6 +19,6 @@ Want to use Azure Websites with the latest version of io.js? Simply include .dep
 - `app.js` is entirely optional and simply spits out the installed version of io.js. It's only included to "prove" that io.js is running, but you should most likely replace it with your own app.js/server.js.
 
 ## Copyright and License
-The MIT License (MIT)
-Copyright (c) Microsoft Corporation
-Please see LICENSE.md for more information.
+- Copyright (c) Microsoft Corporation
+- Released under the MIT License (MIT)
+- Please see LICENSE.md for more information.
