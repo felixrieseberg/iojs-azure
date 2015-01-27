@@ -1,6 +1,8 @@
 # [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/) io.js on Azure Websites
 Want to use Azure Websites with the latest version of io.js? Simply include .deployment, deploy.cmd and iisnode.yml in your project. Done!
 
+A tutorial can also be [found on Azure.com](http://azure.microsoft.com/en-us/documentation/articles/web-sites-nodejs-iojs/).
+
 ## Creating a io.js Website from Scratch
 - Sign up for an Azure account. You can run up to 10 websites on Azure for free, so any account will do - for instance the [pay-as-you-go account with free trial credits](http://azure.microsoft.com/en-us/pricing/free-trial/) or the included accounts coming with [BizSpark for startups](http://www.bizspark.com) or the [GitHub Student Developer Pack](https://education.github.com/pack).
 
